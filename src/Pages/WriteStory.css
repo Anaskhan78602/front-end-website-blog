@@ -1,0 +1,81 @@
+/* WriteStory.css */
+.write-story-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    color: #333;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .write-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #0E2954;
+    margin-bottom: 30px;
+  }
+  
+  .story-input {
+    width: 80%;
+    height: 300px;
+    border: 2px solid #0E2954;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    resize: none;
+    outline: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    background-color: #fff;
+  }
+  
+  .story-input:focus {
+    border-color: #ff9800;
+    box-shadow: 0 0 10px rgba(255, 152, 0, 0.6);
+  }
+  
+  .post-button {
+    margin-top: 20px;
+    background-color: #ff9800;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .post-button:hover {
+    background-color: #e68900;
+  }
+  
+  .fun-text {
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #666;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  .fun-text p {
+    animation: textGlow 2s ease-in-out infinite;
+  }
+  
+  @keyframes textGlow {
+    0% {
+      color: #ff9800;
+    }
+    50% {
+      color: #ff5722;
+    }
+    100% {
+      color: #ff9800;
+    }
+  }
+  
